@@ -93,8 +93,8 @@ body{
 .T{
 	width: 50px;
 	height: 50px;
-	
-	background: url(../images/Active1.png.) no-repeat;
+	background-size: contain;
+	background: url(../images/noActive1.png) no-repeat;
 }
 .T:hover{
 	background: url(../images/Active1.png) no-repeat;
@@ -108,12 +108,12 @@ body{
 .G{
 	width: 50px;
 	height: 50px;
-	
-	background: url(../images/Active5.png.) no-repeat;
+	background-size: contain;
+	background: url(../images/noActive5.png) no-repeat;
 }
 .G:hover{
 	background: url(../images/Active5.png) no-repeat;
-	background-size: contain;
+	
 }
 .G a{
 	display: block;
