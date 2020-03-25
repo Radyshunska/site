@@ -1,10 +1,10 @@
 <?php
 
 if(isset($_POST['submit'])){
-$to = "vlad.bondar556012@gmail.com";; // Здесь нужно написать e-mail, куда будут приходить письма
+$to = "vlad.bondar556012@gmail.com";; // Записати e-mail, куди будуть приходити листи
 $from = $_POST['email']; // this is the sender's Email address
 $first_name = $_POST['first_name'];
-$subject = "Форма отправки сообщений с сайта";
+$subject = "Форма відтправки";
 $subject2 = "Copy of your form submission";
 
 
@@ -12,7 +12,7 @@ $headers = "From:" . $from;
 $headers2 = "From:" . $to;
 
 mail($to,$subject,$headers);
-// mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender - Отключено!
+// mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender - Вимкнено!
 echo "Заявка відправлена.Дякую! " . $first_name . ", найближчим часом ми зв'яжемось з вами";
 echo "<br /><br /><a href='index.html'>Повернутись на головну.</a>";
 
@@ -20,7 +20,7 @@ echo "<br /><br /><a href='index.html'>Повернутись на головн�
 
 ?>
 
-<!--Переадресация на главную страницу сайта, через 3 секунды-->
+<!--Переадресація-->
 <script language="JavaScript" type="text/javascript">
 function changeurl(){eval(self.location="index.html");}
 window.setTimeout("changeurl();",3000);
