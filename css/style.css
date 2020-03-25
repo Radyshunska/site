@@ -121,9 +121,6 @@ body{
 	height: 50px;
 }
 
-
-
-
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 #team {
     background: #eee !important;
@@ -252,23 +249,6 @@ section .section-title {
     border-radius: 50%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .box1 img,.box1:after,.box1:before{width:100%;transition:all .3s ease 0s}
 .box1 .icon,.box2,.box3,.box4,.box5 .icon li a{text-align:center}
 .box10:after,.box10:before,.box1:after,.box1:before,.box2 .inner-content:after,.box3:after,.box3:before,.box4:before,.box5:after,.box5:before,.box6:after,.box7:after,.box7:before{content:""}
@@ -295,11 +275,8 @@ body{background-color:#f1f1f2}
 }
 
 
-
-
  h1
-{
-	
+{	
 	font-weight:300;
 }
 
@@ -373,7 +350,7 @@ body{background-color:#f1f1f2}
 	transition:0.5s;
 }
 
-/* Стили для средних экранов (дисплей максимум 991 пикселей) */
+/* 991 пікселів*/
 @media (max-width: 991px) {
 
 	.tabs{
@@ -391,7 +368,7 @@ body{background-color:#f1f1f2}
 	}
  }
 
-/* Стили для маленьких экранов (дисплей максимум 767 пикселей) */
+/* 767 пікселів */
 @media (max-width: 767px) { 
 
 	#collapsibleNavbar li{
@@ -412,14 +389,5 @@ body{background-color:#f1f1f2}
 		padding:18% 14%;
 	}
  }
-
-
-
-
-
-
-
-
-
 
 
